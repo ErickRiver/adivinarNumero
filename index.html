@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adivina el número</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="..\..\recursos\bootstrap\css\bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../adivinarNumero/css/styles.css">
+</head>
+
+<body>
+    <div id="contenedor">
+
+        <h1 id="titulo">ADIVINA EL NÚMERO</h1>
+
+        <div class="contenedor-corazones">
+            <!-- <img src="../../img/icon_corazon.png" alt="corazon" class="icon-corazon"> -->
+        </div>
+        <label id="lblPista"></label>
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="txtNumero" placeholder="numero">
+            <label id="lblNumero" for="txtNumero"></label>
+        </div>
+
+        <div class="botones">
+            <button class="btn btn1"><span>1-10</span></button>
+            <button class="btn btn2"><span>1-50</span></button>
+            <button class="btn btn3"><span>1-100</span></button>
+        </div>
+
+        <div class="botones adivinar">
+            <button class="btn adivinar"><span>Adivinar</span>
+                <svg>
+                    <rect x="0" y="0" fill="none"></rect>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
