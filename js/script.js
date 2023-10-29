@@ -16,7 +16,7 @@ function cargarCorazones() {
     contenedorCorazones.innerHTML = "";
     for (var i = 0; i < vidas; i++) {
         const div = document.createElement("div");
-        div.innerHTML = `<img src="../../img/icon_corazon.png" alt="corazon" class="icon-corazon">`;
+        div.innerHTML = `<img src="../img/icon_corazon.png" alt="corazon" class="icon-corazon">`;
         contenedorCorazones.append(div);
     }
 }
